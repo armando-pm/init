@@ -23,7 +23,7 @@ mkdir -p "$USER_HOME/.ssh"
 chmod 700 "$USER_HOME/.ssh"
 
 # Agregar la llave al archivo authorized_keys
-echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINs2uc6hx1erSs+93cnTmZSMzYSwRScMQrtX2BM3mPyU" >> "$USER_HOME/.ssh/authorized_keys"
+echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDWlXc5fe6lpI4p+BtxpzR5b0S95+832odr89993EqyL armando@PL-739" >> "$USER_HOME/.ssh/authorized_keys"
 chmod 600 "$USER_HOME/.ssh/authorized_keys"
 
 echo "Script completado exitosamente."
